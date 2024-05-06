@@ -1,0 +1,4 @@
+flex scanner.l
+bison -dy test.y
+gcc lex.yy.c y.tab.c -o my_compiler
+
